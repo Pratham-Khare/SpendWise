@@ -1,4 +1,4 @@
-# TrackExpense 💰
+# SpendWise 💰
 
 A full-stack MERN application for tracking income and expenses. Users can securely manage their financial records, monitor spending patterns, view financial summaries, and export transaction data to Excel.
 
@@ -65,7 +65,7 @@ A full-stack MERN application for tracking income and expenses. Users can secure
 ## Project Structure
 
 ```text
-TrackExpense
+SpendWise
 │
 ├── backend
 │   ├── config
@@ -95,8 +95,8 @@ TrackExpense
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/TrackExpense.git
-cd TrackExpense
+git clone https://github.com/your-username/SpendWise.git
+cd SpendWise
 ```
 
 ---

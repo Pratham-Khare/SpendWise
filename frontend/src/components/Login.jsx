@@ -104,7 +104,7 @@ const Login = ({ onLogin, API_URL = "http://localhost:4000" }) => {
           </div>
           <h1 className={loginStyles.headerTitle}>Welcome Back</h1>
           <p className={loginStyles.headerSubtitle}>
-            Sign in to your ExpenseTracker account
+            Sign in to your SpendWise account
           </p>
         </div>
 
@@ -198,9 +198,8 @@ const Login = ({ onLogin, API_URL = "http://localhost:4000" }) => {
             <button
               type="submit"
               disabled={isLoading}
-              className={`${loginStyles.button} ${
-                isLoading ? loginStyles.buttonDisabled : ""
-              }`}
+              className={`${loginStyles.button} ${isLoading ? loginStyles.buttonDisabled : ""
+                }`}
             >
               {isLoading ? (
                 <>
